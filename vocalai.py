@@ -1,10 +1,5 @@
-#things to install
-'''
-
-'''
-
 import openai
-openai.api_key = ""
+openai.api_key = "sk-YOUR-KEY-HERE"
 
 import speech_recognition as sr
 import pyttsx3
