@@ -1,5 +1,5 @@
 import openai
-openai.api_key = "sk-YOUR-KEY-HERE"
+openai.api_key = "YOUR-KEY-HERE"
 
 import speech_recognition as sr
 import pyttsx3
