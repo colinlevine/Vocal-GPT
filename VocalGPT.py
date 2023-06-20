@@ -24,7 +24,7 @@ def decodeGPT(response):
     response = str(response).split("\n")
     global validResponse
     validResponse = response[6]
-    validResponse = validResponse[20:-2].replace('\\n', '\n').replace('\\', '\\').replace('\\u2019', '\'').replace('\\u201c', '\"').replace('\\u201d', '\"').replace("\\u00e9","e")
+    validResponse = validResponse[20:-2].replace('\\n', '\n').replace('\\u2019', '\'').replace('\\u201c', '\"').replace('\\u201d', '\"').replace("\\u00e9","e")
     print(validResponse)
 
 print("I'm your virtual assistant. You can speak to me whenever you hear the beep, and you can say stop whenever you would like to end our conversation. How may I help you?")
